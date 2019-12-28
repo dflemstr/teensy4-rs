@@ -8,6 +8,7 @@ mod fpu;
 mod nvic;
 
 pub use cortex_m_rt_macros::{entry, exception, interrupt};
+pub use fault::ExceptionFrame;
 pub use nvic::exception;
 
 /// System entrypoint
